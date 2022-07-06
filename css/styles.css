@@ -3,6 +3,7 @@
     /* width: 1vw; */
     /* margin: 0 auto; */
     justify-content: center;
+    align-items: center;
     margin-top: 5rem;
 }
 .row{
@@ -57,7 +58,10 @@
     .row {
         /* width: 100vw; */
         display: flex;
+        flex-wrap:wrap;
         flex-direction: column;
         height: 100vh;
+        margin-right: 1px;
     }
+    
 }
